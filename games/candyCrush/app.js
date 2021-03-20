@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // CHECKING FOR MATCHES
-  // TODO: fix bug with matching columns with the last row. it keeps trying to match four.
+  // TODO: fix bug with matching row with the first row. it leaves the first row empty sometimes.
   // check for row of four
   function checkRowForFour() {
     // how many square we need to loop
