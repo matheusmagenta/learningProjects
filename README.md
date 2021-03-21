@@ -20,6 +20,7 @@
 - [Rock, Paper, Scissors](https://github.com/matheusmagenta/learningProjects/tree/main/games/rockPaperScissorsGame)
 - [Candy Crush](https://github.com/matheusmagenta/learningProjects/tree/main/games/candyCrush)
 - [Card Game]()
+- [Pac-Man]()
 
 ### 4. Miniprojects
 
