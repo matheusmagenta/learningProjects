@@ -9,6 +9,8 @@
 - [To-Do List App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/todoApp)
 - [Ecommerce Shopping Cart](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/ecommerceCart)
 - [BookList App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/bookListApp)
+- [Budget App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/budgetApp)
+- [Single Page App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/singlePageApp)
 
 ### 2. Webpages
 
