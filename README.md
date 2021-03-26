@@ -27,3 +27,9 @@
 ### 4. Miniprojects
 
 - [Where is ISS at the moment](https://github.com/matheusmagenta/learningProjects/tree/main/miniProjects/whereIsISSAt)
+
+### 5. Minicomponents
+
+### 6. Data Structures and Algorithms
+
+- [Anagram Checker]
