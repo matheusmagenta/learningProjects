@@ -23,6 +23,7 @@
 - [Candy Crush](https://github.com/matheusmagenta/learningProjects/tree/main/games/candyCrush)
 - [Card Game]()
 - [Pac-Man](https://github.com/matheusmagenta/learningProjects/tree/main/games/pacMan)
+- [Breakout](https://github.com/matheusmagenta/learningProjects/tree/main/games/2DBreakout)
 
 ### 4. Miniprojects
 
