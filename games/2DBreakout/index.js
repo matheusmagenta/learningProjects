@@ -132,6 +132,13 @@ function checkForCollisions() {
       changeDirection();
       score++;
       scoreDisplay.innerHTML = score;
+
+      // check for win
+      if (blocks.length === 0) {
+        scoreDisplay.innerHTML = "you win";
+        clearInterval(timerId);
+        document.removeEventListener("keydown", moveUser);
+      }
     }
   }
 
@@ -144,8 +151,18 @@ function checkForCollisions() {
     changeDirection();
   }
 
-  // check for game over
+  // checking for user collisions
+  if (
+    currentBallPosition[0] >= currentUserPosition[0] &&
+    currentBallPosition[0] < currentUserPosition[0] + blockWidth &&
+    currentBallPosition[1] > currentUserPosition[1] &&
+    currentBallPosition[1] < currentUserPosition[1] + blockHeight
+  ) {
+    changeDirection();
+  }
+
   if (currentBallPosition[1] <= 0) {
+    // check for game over
     clearInterval(timerId);
     scoreDisplay.innerHTML = "you lose";
     document.removeEventListener("keydown", moveUser);

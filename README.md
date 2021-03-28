@@ -33,4 +33,4 @@
 
 ### 6. Data Structures and Algorithms
 
-- [Anagram Checker]
+- [Anagram Checker](https://github.com/matheusmagenta/learningProjects/blob/main/algorithms/anagrams.js)
