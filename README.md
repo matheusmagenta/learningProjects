@@ -16,6 +16,7 @@
 ### 2. Webpages
 
 - [Landing Page with HTML, Sass and JavaScript](https://github.com/matheusmagenta/learningProjects/tree/main/webPages/landingPage)
+- [Creative Agency Responsive Website](https://github.com/matheusmagenta/learningProjects/tree/main/webPages/creativeAgencyWebsite)
 
 ### 3. Games
 
