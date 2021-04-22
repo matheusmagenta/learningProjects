@@ -31,7 +31,9 @@
 
 - [Where is ISS at the moment](https://github.com/matheusmagenta/learningProjects/tree/main/miniProjects/whereIsISSAt)
 
-### 5. Minicomponents
+### 5. Features
+
+- [Star Ratings](https://github.com/matheusmagenta/learningProjects/tree/main/features/starRatings)
 
 ### 6. Data Structures and Algorithms
 
