@@ -12,6 +12,7 @@
 - [BookList App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/bookListApp)
 - [Budget App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/budgetApp)
 - [Single Page App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/singlePageApp)
+- [Movie Seat Booking](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/movieSeatBooking)
 
 ### 2. Webpages
 
