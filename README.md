@@ -35,6 +35,7 @@
 ### 5. Features
 
 - [Star Ratings](https://github.com/matheusmagenta/learningProjects/tree/main/features/starRatings)
+- [Form Validator](https://github.com/matheusmagenta/learningProjects/tree/main/features/formValidator)
 
 ### 6. Data Structures and Algorithms
 
