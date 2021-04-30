@@ -26,6 +26,7 @@
 - [Card Game]()
 - [Pac-Man](https://github.com/matheusmagenta/learningProjects/tree/main/games/pacMan)
 - [Breakout](https://github.com/matheusmagenta/learningProjects/tree/main/games/2DBreakout)
+- [Mine Sweeper](https://github.com/matheusmagenta/learningProjects/tree/main/games/mineSweeper)
 
 ### 4. Miniprojects
 
