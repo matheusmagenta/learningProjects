@@ -14,6 +14,7 @@
 - [Single Page App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/singlePageApp)
 - [Movie Seat Booking](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/movieSeatBooking)
 - [Exchange Rate Calculator](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/exchangeRateCalculator)
+- [Expense Tracker](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/expenseTracker)
 
 ### 2. Webpages
 
