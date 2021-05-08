@@ -7,7 +7,7 @@ const form = document.getElementById("form");
 const text = document.getElementById("text");
 const amount = document.getElementById("amount");
 
-const dummyTransactions = [
+/* const dummyTransactions = [
   {
     id: 1,
     text: "Flower",
@@ -28,11 +28,50 @@ const dummyTransactions = [
     text: "Camera",
     amount: 150,
   },
-];
+]; */
 
-let transactions = dummyTransactions;
+const localStorageTransactions = JSON.parse(
+  localStorage.getItem("transactions")
+);
+
+let transactions =
+  localStorage.getItem("transactions") !== null ? localStorageTransactions : [];
 
 // functions
+// add transactions
+function addTransaction(e) {
+  e.preventDefault();
+  if (text.value.trim() === "" || amount.value.trim() === "") {
+    alert("please add a text and amount");
+  } else {
+    const transaction = {
+      id: generateId(),
+      text: text.value,
+      amount: +amount.value,
+    };
+    // pushing transaction into array
+    transactions.push(transaction);
+
+    // adding to the DOM
+    addTransactionDOM(transaction);
+
+    // updating values
+    updateValues();
+
+    // updating localStorage
+    updateLocalStorage();
+
+    // clearing inputs
+    text.value = "";
+    amount.value = "";
+  }
+}
+
+// generate random id
+function generateId() {
+  return Math.floor(Math.random() * 1000000000);
+}
+
 // add transactions to DOM list
 function addTransactionDOM(transaction) {
   // getting sign
@@ -44,7 +83,9 @@ function addTransactionDOM(transaction) {
   // adding dynamic values to DOM element
   item.innerHTML = `
     ${transaction.text} <span>${sign}${Math.abs(transaction.amount)}</span>
-    <button class="delete-btn">x</button>
+    <button class="delete-btn" onclick="removeTransaction(${
+      transaction.id
+    })">x</button>
   `;
   // adding element to the DOM
   list.appendChild(item);
@@ -73,7 +114,22 @@ function updateValues() {
   money_minus.innerText = `$${expense}`;
 }
 
-//init app
+// removing transaction by id
+function removeTransaction(id) {
+  transactions = transactions.filter((transaction) => transaction.id !== id);
+
+  //updating localStorage
+  updateLocalStorage();
+
+  init();
+}
+
+// update local storage transactions
+function updateLocalStorage() {
+  localStorage.setItem("transactions", JSON.stringify(transactions));
+}
+
+// init app
 function init() {
   // clearing view
   list.innerHTML = "";
@@ -84,3 +140,7 @@ function init() {
 }
 
 init();
+
+// event listeners
+
+form.addEventListener("submit", addTransaction);
