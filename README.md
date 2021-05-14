@@ -15,6 +15,7 @@
 - [Movie Seat Booking](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/movieSeatBooking)
 - [Exchange Rate Calculator](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/exchangeRateCalculator)
 - [Expense Tracker](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/expenseTracker)
+- [Meal Finder](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/mealFinder)
 
 ### 2. Webpages
 
