@@ -60,11 +60,16 @@ function getMealById(mealID) {
     });
 }
 
+// clearing view
+function clearView() {
+  mealsEl.innerHTML = "";
+  resultHeading.innerHTML = "";
+}
+
 // fetching random meal from API
 function getRandomMeal() {
   // clear meals and heading
-  mealsEl.innerHTML = "";
-  resultHeading.innerHTML = "";
+  clearView();
 
   fetch(`https://www.themealdb.com/api/json/v1/1/random.php`)
     .then((response) => response.json())
@@ -76,6 +81,7 @@ function getRandomMeal() {
 
 // adding meal to DOM
 function addMealToDOM(meal) {
+  clearView();
   // creating an array with ingredients and measures
   const ingredients = [];
 
