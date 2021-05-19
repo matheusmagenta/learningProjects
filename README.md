@@ -17,6 +17,7 @@
 - [Expense Tracker](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/expenseTracker)
 - [Meal Finder](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/mealFinder)
 - [Lyrics Search](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/lyricsSearch)
+- [Relaxer App](https://github.com/matheusmagenta/learningProjects/tree/main/webApps/relaxerApp)
 
 ### 2. Webpages
 
