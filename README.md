@@ -38,12 +38,14 @@
 ### 4. Miniprojects
 
 - [Where is ISS at the moment](https://github.com/matheusmagenta/learningProjects/tree/main/miniProjects/whereIsISSAt)
+- [New Year Countdown](https://github.com/matheusmagenta/learningProjects/tree/main/miniProjects/newYearCountdown)
 
 ### 5. Features
 
 - [Star Ratings](https://github.com/matheusmagenta/learningProjects/tree/main/features/starRatings)
 - [Form Validator](https://github.com/matheusmagenta/learningProjects/tree/main/features/formValidator)
 - [Custom VideoPlayer](https://github.com/matheusmagenta/learningProjects/tree/main/features/customVideoPlayer)
+- [Infinite Scroll](https://github.com/matheusmagenta/learningProjects/tree/main/features/infiniteScroll)
 
 ### 6. Data Structures and Algorithms
 
