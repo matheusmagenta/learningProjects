@@ -34,6 +34,7 @@
 - [Breakout](https://github.com/matheusmagenta/learningProjects/tree/main/games/2DBreakout)
 - [Mine Sweeper](https://github.com/matheusmagenta/learningProjects/tree/main/games/mineSweeper)
 - [Hangman](https://github.com/matheusmagenta/learningProjects/tree/main/games/hangman)
+- [Speed Typer](https://github.com/matheusmagenta/learningProjects/tree/main/games/typingGame)
 
 ### 4. Miniprojects
 
