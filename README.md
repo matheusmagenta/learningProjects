@@ -35,6 +35,7 @@
 - [Mine Sweeper](https://github.com/matheusmagenta/learningProjects/tree/main/games/mineSweeper)
 - [Hangman](https://github.com/matheusmagenta/learningProjects/tree/main/games/hangman)
 - [Speed Typer](https://github.com/matheusmagenta/learningProjects/tree/main/games/typingGame)
+- [Speak Guessing Number](https://github.com/matheusmagenta/learningProjects/tree/main/games/speakGuessingNumber)
 
 ### 4. Miniprojects
 
