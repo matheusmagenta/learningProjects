@@ -47,6 +47,7 @@
 - [Star Ratings](https://github.com/matheusmagenta/learningProjects/tree/main/features/starRatings)
 - [Form Validator](https://github.com/matheusmagenta/learningProjects/tree/main/features/formValidator)
 - [Custom VideoPlayer](https://github.com/matheusmagenta/learningProjects/tree/main/features/customVideoPlayer)
+- [Custom MusicPlayer](https://github.com/matheusmagenta/learningProjects/tree/main/features/customMusicPlayer)
 - [Infinite Scroll](https://github.com/matheusmagenta/learningProjects/tree/main/features/infiniteScroll)
 - [Sortable and Draggable List](https://github.com/matheusmagenta/learningProjects/tree/main/features/listSortableAndDraggable)
 
